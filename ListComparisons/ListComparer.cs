@@ -15,7 +15,7 @@
     Console.WriteLine();
     Console.WriteLine();
     Console.WriteLine($"Trying to find a file named ({thelistspath}),");
-    Console.WriteLine($"and the code is searching in the following folder:");
+    Console.WriteLine($" and the code is searching in the following folder:");
     Console.WriteLine($"{basePath}");
     Console.WriteLine();
     txtLines = File.ReadAllLines(basePath+thelistspath);
